@@ -5,18 +5,18 @@
     box-sizing: border-box;
 }
 
-  :root {
-    --primary-color: #288f30;
-    --secondary-color: #d7e424;
-    --tertiary-color: #39a6b2;
-  }
+:root {
+    --primary-color: #e726c7;
+    --secondary-color: #0c4227;
+    --tertiary-color: #91a7d6;
+}
 
-  body {
+body {
     color: var(--secondary-color);
 }
 
-header h1 {
-    color: (brown);
+header a {
+    color: (var(--primary-color));
     background-color: var(--tertiary-color);
 }
 
