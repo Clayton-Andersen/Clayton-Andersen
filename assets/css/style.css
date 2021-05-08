@@ -1,1 +1,22 @@
-font-family: 'Raleway', sans-serif;
+/* font-family: 'Raleway', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  :root {
+    --primary-color: #288f30;
+    --secondary-color: #d7e424;
+    --tertiary-color: #39a6b2;
+  }
+
+  body {
+    color: var(--secondary-color);
+}
+
+header h1 {
+    color: (brown);
+    background-color: var(--tertiary-color);
+}
+
