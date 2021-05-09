@@ -7,8 +7,9 @@
 
 :root {
     --primary-color: #0f94b6;
-    --secondary-color: #2fe088;
+    --secondary-color: #041d11;
     --tertiary-color: #ff52b1;
+    --more: #889c91;
 }
 
 body {
@@ -45,3 +46,50 @@ header nav ul {
       padding: 10px 15px;
   }
 
+  .hero {
+      background-image: url("../images/Salt-Flats.jpeg");
+      background-size: cover;
+      background-position: bottom;
+      min-height: 90vh;
+      text-align: center;
+      margin: 100 100 100 100;
+  }
+
+  .hero h2 {
+    padding-top: 20%;
+    font-size: 60px;
+  }
+
+  .about {
+      background-color: #889c91;    
+      min-height: 90vh;
+  }
+
+  .about img {
+      width: 70%;
+      padding: 5% 5% 5% 5%;
+  }
+
+  .about-me {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: none;
+    margin: 0 auto;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .about-me h3, img{
+      vertical-align: center;
+  }
+  .about-me > div {
+    background-color: none;
+    width: 1000px;
+    margin: 3.5%;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .about, .showcase, .get-in-touch {
+      font-size: 30px;
+  }
