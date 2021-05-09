@@ -1,10 +1,10 @@
 /* font-family: 'Raleway', sans-serif;*/
+
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --primary-color: #0f94b6;
     --secondary-color: #041d11;
@@ -24,19 +24,21 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
+
+
 header h1 {
     font-size: 2.5vw;
     font-weight: bold;
-    margin: 0 0 0 10;
+    float: left;
 }
 
 header nav {
-    margin: 7px 10px;
+    margin: 0 10px 5vh 10px;
+    height: 5vh;
 }
 
 header nav ul {
@@ -86,12 +88,13 @@ footer a {
       background-position: center;
       min-height: 90vh;
       text-align: center;
-      margin: 100 100 100 100;
+      margin: 0 auto;
   }
 
   .hero h2 {
-    padding-top: 20%;
+    /* padding-top: 20%; */
     font-size: 60px;
+    margin: 0 auto;
   }
 /* hero end */
 
@@ -123,8 +126,6 @@ footer a {
   }
   .about-me > div {
     
-    
-    margin: 3.5%;
     text-align: left;
     
     font-size: 30px;
@@ -133,11 +134,27 @@ footer a {
 
 /* showcase start */
 .showcase {
-    
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(121, 233, 158);
+    min-height: 90vh;
+}
+
+.showcase h3 {
+    padding: 3% 0 0 3%;
+}
+.showcase p{
+    padding: 0 0 10% 3%
 }
 .showcase img {
-    width: 30%;
+    width: 100%;
     padding: 5% 5% 5% 5%;
+}
+
+.flex-row {
+    display: flex;
+    flex: wrap;
+    
 }
   .about, .showcase, .get-in-touch {
       font-size: 30px;
