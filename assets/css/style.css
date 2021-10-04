@@ -141,6 +141,7 @@ footer a {
     background-color: rgb(121, 233, 158);
     min-height: 100vh;
     align-items: stretch;
+    text-align: center;
 }
 
 .showcase h3 {
@@ -149,10 +150,10 @@ footer a {
 .showcase p{
     padding: 0 0 10% 3%
 }
-.showcase img {
+/* .showcase img {
     width: 100%;
     padding: 5% 5% 5% 5%;
-}
+} */
 
 .flex-row {
     display: flex;
@@ -166,6 +167,18 @@ footer a {
       align-items: flex stretch; 
 
 /* contact section start */
+.proj-1-image {
+  background-image: url("../images/trail-finder.jpg");
+  background-size: 100%;
+}
+.proj-2-image {
+  background-image: url("../images/rate-my-rental.png");
+  background-size: 100%;
+}
+.proj-3-image {
+  background-image: url("../images/philanthropy-and-me.jpeg");
+  background-size: 100%;
+}
 
 .get-in-touch {
     background-size: cover;
@@ -220,3 +233,17 @@ footer a {
     .about-me {
         flex-wrap: wrap;
     }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
