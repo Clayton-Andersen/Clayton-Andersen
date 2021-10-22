@@ -1,12 +1,10 @@
-/* font-family: 'Raleway', sans-serif;*/
-
 * {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #0f94b6;
+    --primary-color: #ffff;
     --secondary-color: #041d11;
     --tertiary-color: #ff52b1;
     --more: #889c91;
@@ -18,7 +16,7 @@ body {
 
 /* header start */
 header {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     background-color: var(--tertiary-color);
     padding: 30px 35px;
     display: flex;
@@ -30,6 +28,7 @@ header {
 }
 
 header a {
+  color: var(--primary-color);
     text-decoration: none;
 }
    
@@ -233,17 +232,4 @@ footer a {
     .about-me {
         flex-wrap: wrap;
     }
-  }
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .container {
-    padding: 2px 16px;
   }
