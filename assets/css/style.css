@@ -179,7 +179,7 @@ footer a {
   background-size: 100%;
 }
 
-.get-in-touch {
+#contact {
     background-size: cover;
     background-position: center;
     background-color: rgb(49, 218, 175);
@@ -187,6 +187,10 @@ footer a {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    color: white;
+}
+.get-in-touch h3 a {
+  color: white;
 }
 
 
